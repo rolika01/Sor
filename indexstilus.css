@@ -1,0 +1,98 @@
+body {
+    background-image: url(design/teglafal.jpg);
+}
+
+main {
+    display: grid;
+    grid-template-areas: "h h h h"
+                         "ar as n n"
+                         "f f f f";
+    box-sizing: border-box;
+    font-family: Arial,Verdana, sans-serif;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #333333;
+
+        box-shadow: -1px 2px 24px 16px #FFFFFF;
+        
+}
+
+header {
+    grid-area: h;
+    background-image: url(design/hatter.jpg);
+    height: 300px;
+    color: white;
+    background-size:cover;
+}
+
+article {
+    grid-area: ar;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    font-size: 10px;
+}
+
+aside {
+    grid-area: as;
+    
+}
+
+nav {
+    grid-area: n;
+    color: red;
+}
+
+footer {
+    grid-area: f;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: Garamond;
+    letter-spacing: 2px;
+    font-size: 32px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+nav li{
+    border: solid 1px white;
+    border-radius: 10%;
+    margin: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li :hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+img {
+    float: left;
+    clear: both;
+    max-width: 150px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left:250px;
+}
